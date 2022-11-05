@@ -11,6 +11,7 @@
 
 .inner-container{
     display: flex;
+    flex-direction: column;
     width: 40rem;
     height: 40rem;
     max-width: 50rem;
@@ -30,7 +31,7 @@ h1{
 }
 
 .image{
-    width: 150px;
+    width: 30%;
     margin: 1rem;
     margin-bottom: 2rem;
 }
@@ -41,7 +42,7 @@ h1{
 
 .form input{
     height: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 20rem;
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.6);
@@ -60,6 +61,7 @@ button {
   color: white;
   border: none;
   margin: auto;
+  margin-top: 1rem;
   cursor: pointer;
   &:hover {
     opacity: 0.8;

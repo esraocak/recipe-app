@@ -26,7 +26,7 @@ const Login = () => {
         <form className='form' onSubmit={handleSubmit}>
           <input type="email" name="name" id="name" placeholder='Enter your e-mail' required />
           <input type= "password" name="password" id="password" placeholder='Enter your password' required />
-          <button type="submit"> LOGİN </button>
+          <button type="submit"> LOGIN </button>
         </form>
       </div>
       

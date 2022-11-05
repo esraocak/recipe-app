@@ -1,5 +1,42 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    background-color:rgba(230, 144, 141, 0.5);
+    padding: 0.5rem;
+    /* navbarBgColor:'#e1f1dd',
+    mainColor:'#00adb5',
+    logoColor:'#393e46' */
 }
+.nav-left .l{
+  text-decoration: none;
+  padding: 1rem 0;
+  color:#393e46;
+  font-weight: 800;
+  font-size: 2rem;
+  span {
+    font-weight: 400;
+    color: #00adb5;
+  }
+  }
+
+  .nav-right .l{
+    text-align: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color:purple;
+    transition: all 0.3s ease-in;
+    &:hover {
+      color: 00adb5;
+      font-weight: bold;
+    }
+    @media (max-width:) {
+      width: 100%;
+      border-bottom: 2px solid #00adb5;
+    }
+  }
