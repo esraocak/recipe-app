@@ -8,8 +8,8 @@ import { Cards } from '../components/cards';
 import home from "../assets/home.svg";
 
 const Home = () => {
-  const APP_ID = "9f75fe10";
-  const APP_KEY = "62542a120a7a2a6ae24fa67940c01808";
+  const APP_ID = process.env.REACT_APP_APP_ID
+  const APP_KEY = process.env.REACT_APP_APP_KEY
   const [query, setQuery] = useState("egg");
   const [meal, setMeal] = useState("breakfast");
   const[recipe,setRecipes] = useState (null);
