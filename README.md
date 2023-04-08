@@ -1,10 +1,10 @@
 
 # Recipe App
 
-## Live Link ---> https://recipe-app-esra.netlify.app
+## Live Link ---> https://recipe-app-esra.netlify.app/
 ## Description
 
-Project aims to create an recipe app.
+Project aims to create an recipe app. An application where you can find great recipes. Moreover, the nutritional and calorie values of all recipes are available in detail.
 
 ## Objective
 
@@ -20,6 +20,6 @@ Build an Recipe App using ReactJS.
 
 - ReactJS
 
-- React-Router
+- React-Router-Dom
 
-- Local Storage
+- LocalStorage
