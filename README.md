@@ -2,6 +2,7 @@
 # Recipe App
 
 ## Live Link ---> https://recipe-app-esra.netlify.app/
+
 ## Description
 
 Project aims to create an recipe app. An application where you can find great recipes. Moreover, the nutritional and calorie values of all recipes are available in detail.
